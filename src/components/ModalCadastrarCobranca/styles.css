@@ -1,0 +1,173 @@
+.modal-cadastrar-cobranca {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(145, 154, 150, 0.3);
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 100px;
+    z-index: 2;
+}
+
+.form-cadastrar-cobranca {
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    background-color: #FFFFFF;
+    max-width: 42%;
+    min-height: 500px;
+    padding: 50px;
+    position: relative;
+    font-family: 'Nunito', sans-serif;
+    color: #3F3F55;
+}
+
+.btn-fechar-cadastrar-cobranca {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+.form-cadastrar-cobranca h3 {
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    color: #343447;
+    margin-bottom: 32px;
+    gap: 2%;
+}
+
+.form-cadastrar-cobranca .cadastro-cobranca-input-container, .cadastro-cobranca-input-containers {
+    display: flex;
+    flex-direction: column;
+}
+
+.cadastro-cobranca-input-containers {
+    gap: 16px;
+}
+
+.form-cadastrar-cobranca label {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.form-cadastrar-cobranca-input {
+    all: unset;
+    box-sizing: border-box;
+    outline: 1px solid #D0D5DD;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.5);
+    border-radius: 8px;
+    height: 38px;
+    padding-left: 14px;
+}
+
+.cadastrar-cobranca-erro {
+    outline: 1px solid #E70000;
+}
+
+.erro-input-cobranca {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    color: #E70000;
+    margin-top: 6px;
+  }
+
+.form-cadastrar-cobranca input::placeholder {
+    color: #667085;
+    font-family: 'Inter', sans-serif;
+}
+
+.cobranca-input-vencimento-valor {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1%;
+}
+
+.min-width-vencimento-valor {
+    width: 47%;
+}
+
+.cobranca-input-status {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 100%;
+    gap: 8px;
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+
+.cobranca-input-status p {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.container-cobranca-status {
+    display: flex;
+    align-items: center;
+    padding-left: 3%;
+    background-color: #F0F0F5;
+    border-radius: 10px;
+    height: 48px;
+}
+
+input[type="radio"] {
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #C8C8D7;
+    margin: 0;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    margin-right: 2%;
+    cursor: pointer;
+}
+
+input[type="radio"]:checked {
+    background-image: url('../../assets/icone-checkbox.svg');
+}
+
+.input-descricao {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    word-wrap: break-word;
+    height: 88px;
+    padding-top: 10px;
+    padding-right: 3%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.btns-cadastrar-cobranca {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cancelar-cadastro-cobranca, .concluir-cadastro-cobranca {
+    all: unset;
+    box-sizing: border-box;
+    text-align: center;
+    min-width: 47.5%;
+    height: 33px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.cancelar-cadastro-cobranca {
+    background-color: #F8F8F9;
+    color: #0E8750;
+    border: 1px solid #DEDEE9;
+}
+
+.concluir-cadastro-cobranca {
+    background-color: #DA0175;
+    color: #F8F8F9;
+}

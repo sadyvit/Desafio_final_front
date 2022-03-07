@@ -1,0 +1,27 @@
+.modal-sucesso-usuario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(145, 154, 150, 0.3);
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.cadastro-sucesso {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    padding: 12% 5%;
+    font-family: 'Montserrat', sans-serif;
+    color: #343447;
+    font-size: 24px;
+    font-weight: 700;
+    gap: 24px;
+}

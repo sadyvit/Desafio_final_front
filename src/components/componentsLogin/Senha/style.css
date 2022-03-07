@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Nunito:wght@400;600&display=swap");
+
+
+.card-inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 355px;
+  height: 335px;
+}
+.card-inputs h1 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  margin-bottom: 32px;
+}
+.card-inputs label {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+}
+.card-inputs a {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+}
+.container-senha {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.login-input {
+  width: 100%;
+  height: 44px;
+  padding: 10px 14px 10px 14px;
+  border: 1px solid #d0d5dd;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+}
+
+.container-repita-senha {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.btn {
+  all: unset;
+  cursor: pointer;
+  padding: 4px 55.5px 4px 55.5px;
+  align-items: center;
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: #f8f8f9;
+  background: #da0175;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+.btn:hover {
+  background-color: hsl(328, 68%, 59%);
+}
+.label-cadastro {
+  margin-bottom: 240px;
+}
+.footer-barra {
+  margin-right: 8px;
+}
+.erro-input {
+  border: 1px solid #E70000;
+  box-sizing: border-box;
+}
+.erro{
+  margin-right: 50px;
+  color: #E70000;
+
+}
+.icone-Olho {
+  position: absolute;
+  right: 5%;
+  top: 52%;
+}
+
+.nao-tem-campo-senha {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.nao-tem-campo-repita-senha {
+  width: 100%;
+  margin-bottom: 46px;
+}

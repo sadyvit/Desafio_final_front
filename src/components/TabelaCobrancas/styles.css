@@ -1,0 +1,130 @@
+.tabela-cobrancas {
+    display: flex;
+    background: #ffffff;
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    margin-left: 7.5%;
+    margin-top: 20px;
+    margin-right: 8.5%;
+    margin-bottom: 20px;
+    flex-direction: column;
+    min-width: 50%;
+    padding-left: 2%;
+    padding-right: 3%;
+}
+
+.titulo-coluna-cobrancas {
+    display: flex;
+    align-items: center;
+    height: 78px;
+    color: #3f3f55;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+}
+
+.icone-ordem {
+    display: flex;
+    justify-content: flex-start;
+    gap: 3%;
+    cursor: pointer;
+}
+
+.titulo-coluna-cobrancas-span, .linha-info-cobranca {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    min-width: 13%;
+    font-size: 14px;
+}
+
+.conteudo-cobrancas {
+    display: flex;
+    flex-direction: column;
+}
+
+.linha-info-cobranca {
+    border-top: 1px solid #EFF0F6;
+    min-height: 56px;
+    color: #6E6E85;
+}
+
+.linha-info-cobranca a {
+    text-decoration: none;
+    color: #3f3f55;
+}
+
+.linha-info-cobranca-status {
+    display: flex;
+    min-width: 13%;
+}
+
+.descricao-cobranca {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.descricao-div {
+    width: 30%;
+}
+
+.editar-excluir-cobranca {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+    gap: 36%;
+}
+
+.icones-editar-excluir {
+    font-size: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.icones-editar-excluir span {
+    font-size: 8px;
+    font-weight: 600;
+    color: #747488;
+}
+
+.excluir-cobranca-icone span {
+    color: #AE1100;
+}
+
+.status-cobranca-vencida {
+    background-color: #FFEFEF;
+    color: #971D1D;
+    padding-right: 8%;  
+    padding-left: 8%;
+    border-radius: 8px;
+    font-weight: 600;
+    text-align: center
+}
+
+.status-cobranca-pendente {
+    background-color: #FCF6DC;
+    color: #C5A605;
+    padding-right: 8%;  
+    padding-left: 8%;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+.status-cobranca-paga {
+    background-color: #EEF6F6; 
+    color: #1FA7AF;
+    padding-right: 8%;  
+    padding-left: 8%;
+    border-radius: 8px;
+    font-weight: 600;
+    justify-self: center;
+    margin-left: 3%;
+}
+
+.linha-click {
+    cursor: pointer;
+}

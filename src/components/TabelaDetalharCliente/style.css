@@ -1,0 +1,101 @@
+.tabela-perfil-cliente {
+    display: flex;
+    background: #ffffff;
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    margin-left: 7.5%;
+    margin-top: 24px;
+    margin-right: 8.5%;
+    margin-bottom: 20px;
+    flex-direction: column;
+    min-width: 50%;
+    padding-left: 2%;
+    padding-right: 3%;
+}
+.header-tabela-perfil-cliente {
+    height: 46px;
+    padding-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+.header-tabela-perfil-cliente span {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: #3F3F55;
+}
+.header-tabela-perfil-cliente button {
+    all: unset;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0E8750;
+    background-color: #F8F8F9;
+    border: 1px solid #DEDEE9;
+    border-radius: 10px;
+    height: 33px;
+    min-width: 23%;
+    gap: 4px;
+}
+.linha-01-dado-cliente {
+    display: flex;
+    justify-content: flex-start;
+    width: 65%;
+    margin-bottom: 55px;
+}
+.linha-02-dado-cliente {
+    display: flex;
+    justify-content: space-between;
+    min-width: 100%;
+    margin-bottom: 24px;
+}
+.linha-03-dado-cliente {
+    display: flex;
+    min-width: 65%;
+}
+.linha-04-dado-cliente {
+    display: flex;
+    justify-content: space-between;
+    min-width: 35%;
+}
+.dado-email, .dado-telefone, .dado-cpf, .dado-endereco, .dado-bairro, .dado-complemento, .dado-cep, .dado-cidade, .dado-uf {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.dado-telefone, .dado-cpf, .dado-bairro, .dado-complemento {
+    min-width: 30%;
+}
+.dado-email, .dado-endereco {
+    min-width: 40%;
+}
+.dado-cep { 
+    min-width: 33%;
+    margin-right: 7%;
+}
+.dado-cidade, .dado-uf {
+    min-width: 20%;
+}
+.dado-uf {
+    text-align: end;
+}
+.titulo-coluna-perfil-span {
+    font-family: "Nunito", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3F3F55;
+}
+.descicao-coluna-perfil-span {
+    font-family: "Nunito",sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3F3F55;
+}

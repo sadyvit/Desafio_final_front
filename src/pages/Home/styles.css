@@ -1,0 +1,89 @@
+.home {
+    display: flex;
+    min-height: 100vh;
+}
+
+.main-tables {
+    display: flex;
+    flex-direction: column;
+    width: 92.5%;
+    background-color: #F8F8F9;
+    min-height: 100vh;
+    padding-bottom: 10%;
+}
+
+.home-title {
+    display: flex;
+    justify-content: space-between;
+    min-height: 110px;
+    padding-left: 6%;
+    padding-right: 10%;
+}
+
+.home-title h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 26px;
+    align-self: flex-end;
+    margin-bottom: 2%;
+}
+
+.cobrancas-saldo {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+    min-height: 10%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.cobranca-paga, .cobranca-vencida, .cobranca-prevista {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 31%;
+    border-radius: 30px;
+    gap: 12%;
+}
+
+.saldo-titulo {
+    font-size: 18px;
+}
+
+.saldo-valor {
+    font-size: 24px;
+}
+
+.cobranca-paga img, .cobranca-vencida img, .cobranca-prevista img {
+    width: auto;
+    height: 30%;
+}
+
+.cobranca-info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.cobranca-paga {
+    background-color: #EEF6F6;
+}
+
+.cobranca-vencida {
+    background-color: #FFEFEF;
+}
+
+.cobranca-prevista {
+    background-color: #FCF6DC;
+}
+
+.cobrancas-detalhamento {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+
+.cobrancas-saldo, .cobrancas-detalhamento {
+    padding-left: 6%;
+    padding-right: 8.5%;
+}

@@ -1,0 +1,108 @@
+.clientes {
+    display: flex;
+    min-height: 100vh;
+}
+
+.main-clientes {
+    display: flex;
+    flex-direction: column;
+    width: 92.5%;
+    background-color: #F8F8F9;
+    min-height: 100vh;
+    padding-bottom: 10%;
+    position: relative;
+}
+
+.clientes-title {
+    display: flex;
+    justify-content: space-between;
+    min-height: 110px;
+    padding-left: 8%;
+    padding-right: 10%;
+}
+
+.titulo-pag-clientes {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: #0E8750;
+    align-self: flex-end;
+    margin-bottom: 4px;
+}
+
+.clientes-opcoes {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Nunito', sans-serif;
+    min-width: 84%;
+}
+
+.clientes-opcoes-titulo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 46px;
+    gap: 22px;
+}
+
+.clientes-opcoes-titulo h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 26px;
+}
+
+.clientes-opcoes-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 58%;
+}
+
+.btn-adicionar-cliente, .btn-filtrar-cliente {
+    all: unset;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.btn-adicionar-cliente {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F8F8F9;
+    background-color: #DA0175;
+    border-radius: 10px;
+    height: 33px;
+    min-width: 40%;
+    gap: 4px;
+}
+
+.btn-filtrar-cliente {
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.clientes-opcoes-actions input {
+    all: unset;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    height: 39px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(218, 1, 117, 0.05);
+    padding-left: 8px;
+    min-width: 48%;
+    background-image: url('../../assets/icone-pesquisa.svg');
+    background-repeat: no-repeat;
+    background-position-x: 96%;
+    background-position-y: center;
+}
+
+.clientes-opcoes-actions input::placeholder {
+    color: #747488;
+}
+
+.clientes-opcoes {
+    padding-left: 7.5%;
+    padding-right: 8.5%;
+}

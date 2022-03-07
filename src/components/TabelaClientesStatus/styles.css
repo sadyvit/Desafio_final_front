@@ -1,0 +1,103 @@
+.clientes-status {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    box-shadow: 0px 4px 4px rgba(172, 217, 197, 0.25);
+    width: 49%;
+    padding-top: 18px;
+}
+
+.status-quantidade {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 16px;
+    padding-left: 2%;
+    padding-right: 5%;
+}
+
+.status-icone {
+    display: flex;
+    gap: 8px;
+}
+
+.status-icone h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.status-quantidade span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.quantidade-inadimplentes {
+    background-color: #FFEFEF;
+    color: #971D1D;
+}
+
+.quantidade-em-dia {
+    background-color: #EEF6F6;
+    color: #1FA7AF;
+}
+
+.clientes-status .nome-colunas {
+    display: flex;
+    align-items: center;
+    height: 66px;
+    border-top: 1px solid #EFF0F7;
+    border-bottom: 1px solid #EFF0F7;
+    padding-left: 4%; 
+}
+
+.clientes-status .nome-coluna {
+    display: flex;
+    text-align: left;
+    align-items: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.linha-cliente {
+    display: flex;
+    align-items: center;
+    height: 56px;
+    border-bottom: 1px solid #EFF0F7;
+    padding-left: 4%;
+}
+
+.celula-cliente {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: left;
+    color: #6E6E85;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+}
+
+.col-clientes {
+    width: 43%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;   
+}
+
+.col-id-cliente {
+    width: 30%;
+}
+
+.col-cpf {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

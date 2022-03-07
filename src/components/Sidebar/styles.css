@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar {
+    display: flex;
+    background-color: #F0F0F5;
+    flex-direction: column;
+    min-width: 100px;
+    min-height: 100vh;
+    align-items: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    gap: 50px;
+    padding-top: 50px;
+}
+
+.home-sidebar, .cliente-sidebar, .cobranca-sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding-left: 14%;
+    padding-right: 14%;
+}
+
+.sidebar span {
+    color: #343447;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.sidebar a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+    width: 104%;
+    z-index: 2;
+}
+
+.sidebar a.active {
+    color: #DA0175;
+    border-right: 2px solid #DA0175;
+}

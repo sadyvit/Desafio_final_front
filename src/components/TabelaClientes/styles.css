@@ -1,0 +1,122 @@
+.tabela-container {
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  margin-left: 7.5%;
+  margin-top: 20px;
+  margin-right: 8.5%;
+  margin-bottom: 20px;
+  min-width: 50%;
+  font-family: 'Nunito', sans-serif;
+}
+
+.tabela {
+  display: flex;
+  justify-content: space-between;
+}
+
+.titulo-coluna {
+  display: flex;
+  width: 170px;
+  height: 65px;
+  align-items: center;
+  text-align: center;
+
+  color: #3f3f55;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.titulo-coluna span {
+  margin-right: 5px;
+}
+.arrow-icon {
+  width: 24px;
+  height: 24px;
+  margin-left: 17px;
+}
+.cliente span {
+  margin-left: 2px;
+}
+.cpf {
+  margin-left: 30px;
+}
+.telefone span {
+  margin-left: 8px;
+}
+.status span {
+  margin-left: 15px;
+}
+.cobranca span {
+  margin-left: 6px;
+}
+.e-mail span {
+  margin-left: 3px;
+}
+.tabela-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.linha-table {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #eff0f6;
+  min-height: 50px;
+}
+
+.linha-table a {
+  text-decoration: none;
+  color: #6E6E85;
+}
+
+.linha-table-none {
+  border: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.line-items {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  width: 150px;
+  height: 55px;
+  margin-left: 25px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 40px;
+  color: #6E6E85;
+}
+
+.cliente-email {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.imagemCobranca {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+.status-icon {
+  position: static;
+  left: 8.08%;
+  right: 8.08%;
+  top: 0%;
+  bottom: 0%;
+
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+}

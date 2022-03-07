@@ -1,0 +1,51 @@
+.detalhar-cliente {
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    min-height: 100vh;
+}
+.main-detalhamento {
+    display: flex;
+    flex-direction: column;
+    width: 92.5%;
+    background-color: #F8F8F9;
+    min-height: 100vh;
+    padding-bottom: 10%;
+}
+.Detalhamento-title {
+    display: flex;
+    justify-content: space-between;
+    min-height: 110px;
+    padding-left: 6%;
+    padding-right: 10%;
+}
+
+.detalhes-opcoes-titulo h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 26px;
+    color: #3F3F55;
+   
+}
+.main-detalhamento a  {
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: #0E8750;
+   
+    margin-bottom: 4px;
+}
+.titulo-detalhe {
+    color: #747488;
+}
+.titulo-detalhe-clientes-link {
+    align-self: flex-end;
+}
+.detalhes-opcoes-titulo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 46px;
+    gap: 22px;
+    padding-left: 6%;
+    
+}

@@ -1,0 +1,72 @@
+.modal-excluir-cobranca {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(145, 154, 150, 0.3);
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 100px;
+    z-index: 2;
+}
+
+.excluir-img-msg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    padding: 1% 1%;
+    font-family: 'Montserrat', sans-serif;
+    color: #343447;
+    font-size: 24px;
+    font-weight: 700;
+    gap: 24px;
+}
+.img-fechar-modal {
+    margin-left: 500px;
+    cursor: pointer;
+}
+.excluir-img-msg h3 {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+    color: #CC7800;
+    margin-bottom: 27px;
+}
+.btn-modal {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 250px;
+    height: 25px;
+    margin-bottom: 60px;
+    
+}
+.class-btn-modal {
+    all: unset;
+    cursor: pointer;
+    width: 50%;
+    height: 100%;
+    border-radius: 4px;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    margin-right: 16px;
+}
+
+.não {
+    color: #AE1100;
+    background: #F2D6D0;
+}
+.sim {
+    color: #034A2A;
+    background: #ACD9C5;
+}

@@ -1,0 +1,124 @@
+.dados-cobrancas {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    box-shadow: 0px 4px 4px rgba(172, 217, 197, 0.25);
+    min-width: 31%;
+    padding-top: 18px;
+}
+
+.titulo-quantidade {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 16.5px;
+    padding-left: 8%;
+    padding-right: 2%;
+}
+
+.titulo-quantidade h3 {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.titulo-quantidade span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.quantidade-vencidas {
+    background-color: #FFEFEF;
+    color: #971D1D;
+}
+
+.quantidade-previstas {
+    background-color: #FCF6DC;
+    color: #C5A605;
+}
+
+.quantidade-pagas {
+    background-color: #EEF6F6;
+    color: #1FA7AF;
+}
+
+.dados-cobrancas .nome-colunas {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 66px;
+    border-top: 1px solid #EFF0F7;
+    border-bottom: 1px solid #EFF0F7;
+    padding-left: 3%;
+}
+
+.nome-coluna, .nome-coluna-cliente {
+    display: flex;
+    text-align: left;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.nome-coluna {
+    min-width: 25%;
+}
+
+.nome-coluna-cliente {
+    width: 30%;
+}
+
+.linha-cobranca {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 56px;
+    border-bottom: 1px solid #EFF0F7;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.celula-cobranca, .celula-cobranca-nome {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Nunito', sans-serif;
+    text-align: left;
+    font-size: 14px;
+    color: #6E6E85;
+}
+
+.celula-cobranca {
+    min-width: 25%;
+}
+
+.celula-cobranca-nome {
+    width: 30%;
+}
+
+.nome-cliente-cobranca {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.ver-todos {
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 13px;
+    margin-bottom: 12px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.ver-todos a {
+    color: #DA0175;
+}

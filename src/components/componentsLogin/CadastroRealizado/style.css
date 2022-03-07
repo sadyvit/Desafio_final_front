@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Nunito:wght@400;600&display=swap");
+
+.cadastro-realizado {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-confirmacao {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #f0f0f5;
+  border-radius: 30px;
+  width: 600px;
+  height: 512px;
+  margin-bottom: 30px;
+}
+.card-confirmacao img {
+  margin-bottom: 24px;
+}
+.btn-login  {
+  all: unset;
+  cursor: pointer;
+  padding: 4px 55.5px 4px 55.5px;
+  align-items: center;
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: #f8f8f9;
+  background: #da0175;
+  border-radius: 10px;
+  margin-bottom: 200px;
+  
+}
+.cadastro-realizado a {
+  text-decoration: none;
+}
+.btn-login:hover {
+  background-color: hsl(328, 68%, 59%);
+}
